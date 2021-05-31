@@ -12,4 +12,5 @@
    birthyear = c(round(runif(n=3600000, min = 1921, max = 2021)))
  )
  urtak <- y[birthyear > 1975 & birthyear < 2005]
- y <- y[sample(x=n),]
+ y <- y[sample(x=(n-1)),]
+y <- rbind(y, KáriGautason)
