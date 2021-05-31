@@ -1,4 +1,6 @@
- y =  data.table(
+# install.packages(data.table)
+library(data.table)
+y =  data.table(
  ID = c(1:3600000),
  birthyear = c(runif(n=3600000, min = 1921, max = 2021))
  )
